@@ -1,17 +1,17 @@
 # Decay_Analysis
-A physics-informed framework using metaheuristic optimization, Runge–Kutta simulations, and PINNs to extract quantitative parameters from luminescence decay dynamics.
+A physics-informed framework using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINN) to extract quantitative parameters from luminescence decay dynamics.
 
 ## Overview
-This project explores a new paradigm for luminescence decay analysis by moving beyond traditional multi-exponential fitting. Using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINNs), we quantitatively extract radiative and non-radiative rate constants in a Eu²⁺-activated multi-site phosphor (La₂.₅₄₄Ca₁.₄₅₆Si₁₂O₄.₄₅₆N₁₆.₅₄₄:Eu²⁺).
+This project explores a new paradigm for luminescence decay analysis by moving beyond traditional multi-exponential fitting. Using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINN), we quantitatively extract radiative and non-radiative rate constants in a Eu²⁺-activated multi-site phosphor (La₂.₅₄₄Ca₁.₄₅₆Si₁₂O₄.₄₅₆N₁₆.₅₄₄:Eu²⁺).
 
 ## Motivation
 Many LED phosphors exhibit multi-peak emissions due to activators at distinct crystallographic sites, yet conventional multi-exponential fitting fails to capture the underlying physics.
-To address this limitation, we adopt nonlinear rate-equation modeling and overcome its computational challenges using metaheuristic optimization, Runge–Kutta methods, and physics-informed neural networks (PINNs).
+To address this limitation, we adopt nonlinear rate-equation modeling and overcome its computational challenges using metaheuristic optimization, Runge–Kutta methods, and physics-informed neural networks (PINN).
 This enables quantitative and physically grounded analysis of donor–acceptor energy transfer in multi-site phosphors.
 
 ## Key Features
 A hybrid metaheuristic and Runge–Kutta approach is proposed to extract multiple unknown parameters in luminescence decay dynamics.
-Physics-informed neural networks (PINNs) are employed to independently determine multiple rate constants with high fidelity.
+Physics-informed neural networks (PINN) are employed to independently determine multiple rate constants with high fidelity.
 A new physics-grounded paradigm is presented that integrates AI and physics for quantitative, non-empirical analysis of relaxation phenomena.
  
 ## How to use
