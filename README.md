@@ -27,4 +27,4 @@ Sejong University & Sunchon National University
 Kee-Sun Sohn — kssohn@sejong.ac.kr
 
 ## License
-
+This project is licensed under the MIT License.
