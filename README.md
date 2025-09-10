@@ -15,8 +15,8 @@ Physics-informed neural networks (PINN) are employed to independently determine 
 A new physics-grounded paradigm is presented that integrates AI and physics for quantitative, non-empirical analysis of relaxation phenomena.
  
 ## How to use
-Open either Decay_Analysis_GA_Runge-Kutta.ipynb or Decay_Analysis_PSO_Runge-Kutta.ipynb in Jupyter Notebook and execute the code. The optimization workflow will run, producing optimized decay curves along with the extracted eight-dimensional rate constants.
-Open Decay_Analysis_PINN.ipynb, specify the checkpoint_path, and execute the code to initiate training. The PINN-based optimization will run, yielding both the optimized graphs and the final learned parameters.
+Open either Decay_Analysis_1_GA_Runge-Kutta.ipynb or Decay_Analysis_1_PSO_Runge-Kutta.ipynb in Jupyter Notebook and execute the code. The optimization workflow will run, producing optimized decay curves along with the extracted eight-dimensional rate constants.
+Open Decay_Analysis_2_PINN.ipynb, specify the checkpoint_path, and execute the code to initiate training. The PINN-based optimization will run, yielding both the optimized graphs and the final learned parameters.
 
 ## Reference
 Lee, B.D., Seo, Y.H., Cho, M.Y., Hong, J.C., Park, W.B., & Sohn, K.-S.
