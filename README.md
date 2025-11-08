@@ -2,19 +2,37 @@
 A physics-informed framework using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINN) to extract quantitative parameters from luminescence decay dynamics.
 
 ## Overview
-This project explores a new paradigm for luminescence decay analysis by moving beyond traditional multi-exponential fitting. Using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINN), we quantitatively extract radiative and non-radiative rate constants in a Eu²⁺-activated multi-site phosphor (La₂.₅₄₄Ca₁.₄₅₆Si₁₂O₄.₄₅₆N₁₆.₅₄₄:Eu²⁺).
-
-## Motivation
 Many LED phosphors exhibit multi-peak emissions due to activators at distinct crystallographic sites, yet conventional multi-exponential fitting fails to capture the underlying physics.
 To address this limitation, we adopt nonlinear rate-equation modeling and overcome its computational challenges using metaheuristic optimization, Runge–Kutta methods, and physics-informed neural networks (PINN).
 This enables quantitative and physically grounded analysis of donor–acceptor energy transfer in multi-site phosphors.
+This project explores a new paradigm for luminescence decay analysis by moving beyond traditional multi-exponential fitting. Using metaheuristic optimization, Runge–Kutta simulations, and physics-informed neural networks (PINN), we quantitatively extract radiative and non-radiative rate constants in a Eu²⁺-activated multi-site phosphor (La₂.₅₄₄Ca₁.₄₅₆Si₁₂O₄.₄₅₆N₁₆.₅₄₄:Eu²⁺).
 
 ## Key Features
 A hybrid metaheuristic and Runge–Kutta approach is proposed to extract multiple unknown parameters in luminescence decay dynamics.
 Physics-informed neural networks (PINN) are employed to independently determine multiple rate constants with high fidelity.
 A new physics-grounded paradigm is presented that integrates AI and physics for quantitative, non-empirical analysis of relaxation phenomena.
  
-## How to use
+## Installation and how to use
+### Prerequisites
+- Python 3.11 or higher
+- PyTorch (compatible with your system)
+### Step 1: Install PyTorch
+Install PyTorch according to your system configuration from the [official website](https://pytorch.org/get-started/locally/).
+**For CPU:**
+```bash
+pip install torch torchvision torchaudio
+```
+**For CUDA (GPU):**
+Visit https://pytorch.org/get-started/locally/ and select your configuration.
+### Step 2: Install Other Dependencies
+```
+pip install -r requirements.txt
+```
+### Alternative: Install All at Once
+If you prefer to install everything in one command:
+```bash
+pip install torch numpy>=1.24.0 matplotlib>=3.7.0 scipy>=1.10.0 nbformat>=5.9.0
+```
 Open either Decay_Analysis_1_GA_Runge-Kutta.ipynb or Decay_Analysis_1_PSO_Runge-Kutta.ipynb in Jupyter Notebook and execute the code. The optimization workflow will run, producing optimized decay curves along with the extracted eight-dimensional rate constants.
 Open Decay_Analysis_2_PINN.ipynb, specify the checkpoint_path, and execute the code to initiate training. The PINN-based optimization will run, yielding both the optimized graphs and the final learned parameters.
 
