@@ -37,8 +37,8 @@ Open either Decay_Analysis_1_GA_Runge-Kutta.ipynb or Decay_Analysis_1_PSO_Runge-
 Open Decay_Analysis_2_PINN.ipynb, specify the checkpoint_path, and execute the code to initiate training. The PINN-based optimization will run, yielding both the optimized graphs and the final learned parameters.
 
 ## Reference
-Lee, B.D., Seo, Y.H., Cho, M.Y., Hong, J.C., Park, W.B., & Sohn, K.-S.
-Resolving energy transfer dynamics in Eu²⁺-activated multi-site phosphors via metaheuristic optimization and physics-informed neural networks
+Lee, B.D., Seo, Y.H., Cho, M.Y., Hong, J.S., Park, W.B., & Sohn, K.-S.
+Resolving energy transfer dynamics in Eu²⁺-activated multi-site phosphors via metaheuristic optimization and physics-informed neural networks(PINN).
 Sejong University & Sunchon National University
 
 ## Contact
